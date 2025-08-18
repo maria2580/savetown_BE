@@ -1,0 +1,120 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Created by https://www.toptal.com/developers/gitignore/api/gradle,springboot
+# Edit at https://www.toptal.com/developers/gitignore?templates=gradle,springboot
+
+### SpringBoot ###
+.mvn/
+/target/
+!/target/classes/images/
+/build/
+!/build/resources/
+!/build/classes/
+!/build/generated/
+!/build/generated-sources/
+!/build/libs/
+!/build/tmp/
+!/build/reports/
+!/build/classes/java/main/
+!/build/resources/main/
+!/build/classes/kotlin/main/
+!/build/resources/kotlin/main/
+!/build/classes/groovy/main/
+!/build/resources/groovy/main/
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignoring Gradle wrapper properties file (contains download URL for Gradle distribution)
+!gradle/wrapper/gradle-wrapper.properties
+
+# Cache of project dependencies
+.gradletasknamecache
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Application properties
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Compiled files
+*.class
